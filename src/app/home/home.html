@@ -129,57 +129,104 @@
       <h3>Experience</h3>
 
       <div class="timeline">
-        <div class="job" *ngFor="let job of experience">
-          <div class="timeline-marker">
-            <div class="dot"></div>
-          </div>
-
-          <div class="job-content">
-            <div class="job-header">
-              <strong>{{ job.role }}</strong>
-              <span class="period">{{ job.period }}</span>
+        @for (job of experience; track job) {
+          <div class="job">
+            <div class="timeline-marker">
+              <div class="dot"></div>
             </div>
 
-            <div class="company">{{ job.company }}</div>
-            <p>{{ job.description }}</p>
+            <div class="job-content">
+              <div class="job-header">
+                <strong>{{ job.role }}</strong>
+                <span class="period">{{ job.period }}</span>
+              </div>
+
+              <div class="company">{{ job.company }}</div>
+              <p>{{ job.description }}</p>
+            </div>
           </div>
-        </div>
+        }
       </div>
     </section>
     <!-- Education -->
     <section>
       <h3>Education</h3>
         <p class="about-text">
-          <strong>{{ profile.education.degree }}</strong><br />
-          {{ profile.education.school }}
+          <strong>{{ profile.education.degree }}</strong><br/>
+          {{ profile.education.school }} <br/><br/>
+          <strong>{{ profile.educationMaster.degree }}</strong><br/>
+          {{ profile.educationMaster.school }}
         </p>
     </section>
+    <!-- Projects -->
+<section>
+  <h3>Projects</h3>
+
+  <ul class="cert-list">
+    @for(project of projects; track project) {
+      <li>
+        <span class="about-text">
+          <strong>{{ project.name }}</strong><br />
+          {{ project.description }}
+        </span><br />
+
+        <span class="period">
+          Tech: {{ project.tech }}
+        </span><br />
+
+        @if (project.live) {
+          <a [href]="project.live"
+            target="_blank"
+            rel="noopener"
+            class="resume-link">
+            Live Demo
+          </a>
+        }
+
+        @if (project.live && project.repo) {
+          <span> · </span>
+        }
+
+        @if (project.repo) {
+          <a
+          [href]="project.repo"
+          target="_blank"
+          rel="noopener"
+          class="resume-link">
+          GitHub
+        </a>
+        }
+      </li>
+    }
+  </ul>
+</section>
+
     <!-- Certifications -->
     <section>
       <h3>Certifications</h3>
         <ul class="cert-list">
-          <li *ngFor="let cert of certifications">
-            <a
-              [href]="cert.link"
-              target="_blank"
-              rel="noopener"
-            >
-              {{ cert.name }}
-            </a>
+        @for (cert of certifications; track cert) {
+          <li>
+              <a [href]="cert.link"
+                target="_blank"
+                rel="noopener">
+                {{ cert.name }}
+              </a>
           </li>
+      }
         </ul>
     </section>
 
     <!-- Resume -->
     <section>
       <h3>Resume</h3>
-      <a href="assets/Anil Lama - Java Resume.pdf"
+      <a href="assets/AnilLama - Java.pdf"
         target="_blank"
         class="resume-link">
         View Resume
       </a> <br>
       <a
-        href="assets/Anil Lama - Java Resume.pdf"
+        href="assets/AnilLama - Java.pdf"
         download
         class="resume-link">
         Download Resume (PDF)

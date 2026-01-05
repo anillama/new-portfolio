@@ -23,16 +23,26 @@ export class Home {
     description: '6+ years building Scalable Microservices with Java & Spring Boot',
     email: 'alamacs19@gmail.com',
     location: 'Dallas, TX',
-    aboutMe: `Senior Software Engineer with strong experience in Java, Spring Boot, Angular, and microservices. I specialize in designing and developing scalable, secure backend systems, with a focus on clean architecture and performance.
-    
-    My work includes building RESTful APIs for seamless service communication, integrating Apache Kafka for real-time data streaming, and optimizing PostgreSQL for efficient data storage and query performance. I enjoy collaborating with cross-functional teams to deliver reliable, production-ready solutions that support business goals.
-    
-    I hold a Bachelor of Science in Computer Science from California State University, East Bay, and bring a solid full-stack background across Java, Angular, Kafka, and microservices-based systems. Outside of work, I enjoy staying current with new technologies, refining system design skills, traveling, and spending quality time with family.`,
+    aboutMe: `Senior Software Engineer with strong experience in Java, Spring Boot, Angular, and microservices. I specialize in designing and developing scalable, secure backend systems, with a focus on clean architecture and high performance.
+
+              My work includes building RESTful APIs for seamless service communication, integrating Apache Kafka for real-time data streaming, and optimizing PostgreSQL for efficient data storage and query performance. I enjoy collaborating with cross-functional teams to deliver reliable, production-ready solutions that support business goals.
+
+              I hold a Bachelor of Science in Computer Science from California State University, East Bay, and am pursuing a Master’s in Artificial Intelligence (expected 2027). I bring a solid full-stack background across Java, Angular, Kafka, and microservices-based systems, with a growing focus on AI and machine learning applications.
+
+              I am looking for opportunities where I can contribute to challenging projects, grow as a technical leader, and help build intelligent, impactful systems. Outside of work, I enjoy staying current with new technologies, refining system design skills, traveling, and spending quality time with family.`,
     education: {
-      degree: "Bachelor's in Computer Science",
+      degree: "Bachelor's in Computer Science (2019)",
       school: "California State University, East Bay — Hayward, CA"
-  }
-  };
+    },
+    educationMaster: {
+      degree: "Master of Science in Artificial Intelligence (Expected 2027)",
+      school: "Texas A&M University — College Station, TX"
+    },
+    project: {
+    name: 'Portfolio Website',
+    description: `A personal portfolio website built with Angular to showcase my skills, experience, and projects. It features a clean and modern design, responsive layout, and smooth navigation.`,
+    link: 'https://www.anillama.co/'
+  }};
 
   skills = {
     languages: ['Java', 'SQL', 'PL/SQL', 'Python', 'C', 'C++'],
@@ -77,6 +87,16 @@ export class Home {
   {
     name: 'CS50 Wrb Programming with Python and JavaScript - Harvard University',
     link: 'https://certificates.cs50.io/21b17cff-65b4-47d6-aa26-dff78345d42d.pdf?size=letter'
+  }
+];
+
+projects = [
+  {
+    name: 'Personal Portfolio Web Application',
+    description: 'Server-side rendered Angular application built from scratch with responsive design and clean UI architecture.',
+    tech: 'Angular 17, TypeScript, SCSS, SSR (Vite)',
+    live: 'https://www.anillama.co/',
+    repo: 'https://github.com/anillama/portfolio-website'
   }
 ];
 }
