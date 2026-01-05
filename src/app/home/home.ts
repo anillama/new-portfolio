@@ -96,7 +96,7 @@ projects = [
     description: 'Server-side rendered Angular application built from scratch with responsive design and clean UI architecture.',
     tech: 'Angular 17, TypeScript, SCSS, SSR (Vite)',
     live: 'https://www.anillama.co/',
-    repo: 'https://github.com/anillama/portfolio-website'
+    repo: 'https://github.com/anillama/new-portfolio/tree/anil_branch'
   }
 ];
 }
