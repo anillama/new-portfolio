@@ -48,7 +48,7 @@ export class Home {
     languages: ['Java', 'SQL', 'PL/SQL', 'Python', 'C', 'C++'],
     backend: ['Node.js', 'PostgreSQL', 'Redis'],
     cloud: ['Docker', 'Kubernetes'],
-    frameworks: ['Spring', 'Spring Boot', 'Hibernate', 'JPA', 'IntelliJ IDEA', 'Cursor', 'Eclipse'],
+    frameworks: ['Spring', 'Spring Boot', 'Hibernate', 'JPA', 'Django', 'IntelliJ IDEA', 'Cursor', 'Eclipse'],
     webTechnologies: ['HTML5', 'CSS3', 'JavaScript', 'Angular', 'AJAX', 'JSP'],
     databases: ['Oracle', 'SQl Server', 'PostgreSQL', 'MySQL']
   };
