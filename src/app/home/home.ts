@@ -29,7 +29,7 @@ export class Home {
 
               I hold a Bachelor of Science in Computer Science from California State University, East Bay, and am pursuing a Master’s in Artificial Intelligence (expected 2027). I bring a solid full-stack background across Java, Angular, Kafka, and microservices-based systems, with a growing focus on AI and machine learning applications.
 
-              I am looking for opportunities where I can contribute to challenging projects, grow as a technical leader, and help build intelligent, impactful systems. Outside of work, I enjoy staying current with new technologies, refining system design skills, traveling, and spending quality time with family.`,
+              Outside of work, I enjoy staying current with new technologies, refining system design skills, traveling, and spending quality time with family.`,
     education: {
       degree: "Bachelor's in Computer Science (2019)",
       school: "California State University, East Bay — Hayward, CA"
