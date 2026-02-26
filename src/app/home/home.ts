@@ -55,6 +55,13 @@ export class Home {
 
   experience = [
     {
+    role: 'Software Engineer',
+    company: 'JPMorgan Chase & Co.',
+    period: 'Feb 2026 - Current',
+    description:
+      'Data migration engineer at JPMorgan Chase, specializing in migrating and ingesting large-scale data into enterprise data lake infrastructure. Passionate about building reliable data pipelines and enabling data-driven decision-making across the organization.'
+  },
+    {
     role: 'Java Developer – Backend',
     company: 'Hilton Hotels',
     period: 'May 2024 - Dec 2025',
