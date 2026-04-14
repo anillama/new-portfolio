@@ -67,16 +67,9 @@ export class Home {
       'Designed and developed scalable microservices using Java and Spring Boot. Built RESTful APIs, integrated Kafka for real-time data streaming, optimized PostgreSQL queries, and supported CI/CD pipelines. Collaborated with cross-functional teams and mentored junior developers.'
   },
   {
-    role: 'Full Stack Java Developer',
-    company: 'PNC Bank',
-    period: 'Nov 2022 - May 2024',
-    description:
-      'Developed full-stack applications using Angular and Spring Boot. Implemented secure REST APIs with OAuth and JWT, optimized SQL queries, supported system integrations, and worked in Agile Scrum teams to deliver enterprise banking solutions.'
-  },
-  {
     role: 'Full Stack Software Developer',
     company: 'United Health Group',
-    period: 'April 2022 - Oct 2022',
+    period: 'April 2022 - April 2024',
     description:
       'Built healthcare microservices using Spring Boot and REST APIs. Worked across full SDLC, developed Angular UI components, optimized PL/SQL queries, implemented Docker-based environments, and supported production systems.'
   },
