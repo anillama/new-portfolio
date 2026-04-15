@@ -20,10 +20,10 @@ export class Home {
   profile = {
     name: 'Anil Lama',
     title: 'Senior Software Engineer',
-    description: '6+ years building Scalable Microservices with Java & Spring Boot',
+    description: '6 years building Scalable Microservices with Java & Spring Boot',
     email: 'alamacs19@gmail.com',
     location: 'Dallas, TX',
-    aboutMe: `I'm a Senior Java Backend Engineer with 5+ years building scalable, production-grade systems for clients like JPMorgan Chase, Hilton, PNC Bank, and UnitedHealth Group. My core work lives in Java, Spring Boot, and microservices — designing RESTful APIs, event-driven pipelines with Kafka, and secure, high-performance backends for financial and healthcare platforms.
+    aboutMe: `I'm a Senior Java Backend Engineer with 6 years building scalable, production-grade systems for clients like JPMorgan Chase, Hilton, and UnitedHealth Group. My core work lives in Java, Spring Boot, and microservices — designing RESTful APIs, event-driven pipelines with Kafka, and secure, high-performance backends for financial and healthcare platforms.
               
               I care about clean architecture, system reliability, and code that holds up under real-world pressure. I'm currently pursuing a Master's in Artificial Intelligence at Texas A&M, with a growing interest in applying ML to backend and data systems.
               
