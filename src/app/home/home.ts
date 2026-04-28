@@ -95,6 +95,13 @@ projects = [
     tech: 'Angular 17, TypeScript, SCSS, SSR (Vite)',
     live: 'https://www.anillama.co/',
     repo: 'https://github.com/anillama/new-portfolio/tree/anil_branch'
+  },
+  {
+    name: 'Email Communication Network Analysis',
+    description: 'Graph mining study of a 265K-node institutional email network exploring centrality, community detection, and node embeddings. Reveals how different notions of "importance" diverge and uncovers strong departmental community structure.',
+    tech: 'Python, NetworkX, node2vec, scikit-learn, Pandas',
+    live: 'https://github.com/anillama/email-euall-network-analysis-final-project/blob/main/main_notebook.ipynb',
+    repo: 'https://github.com/anillama/email-euall-network-analysis-final-project'
   }
 ];
 }
